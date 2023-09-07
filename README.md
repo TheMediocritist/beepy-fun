@@ -47,6 +47,10 @@ Fix /boot/cmdline.txt and increase default font size to 8x16
 ```bash
 sudo apt install tmux
 cd ~/
+wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/.tmux.conf
+mkdir .conf & cd .conf
+wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_manager.sh
+wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_status.sh
 ```
 
 ## Display driver with grayscale dithering
