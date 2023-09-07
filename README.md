@@ -1,11 +1,16 @@
 # Fun with Beepy
-(Yet another) repo for exploring Beepy's fun potential.
-Running anything on this page is your decision. Do so at your own risk.
+(Yet another) repo exploring Beepy's fun potential. It's mainly for me - so I can get everything set up the way I like when I inevitably break something and have to start from a fresh SD card.
 
-#### Basic setup:
+If you choose to run anything from here you do so at your own risk. 
+
+#### Basic setup
+This step increases the size of fonts and boots directly into Tmux with time, wifi and battery indicators and wifi manager.
+Details:
  - [Post-install fixes](#postfix)
  - [Install & set up Tmux](https://github.com/TheMediocritist/beepy-fun/tree/main#-install-tmux-and-add-some-flair)
  - [Install grayscale dithering display driver](#grayscaledither)
+
+Install all:
 ```bash 
 curl ....
 ```
