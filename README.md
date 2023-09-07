@@ -5,7 +5,7 @@ Running anything on this page is your decision. Do so at your own risk.
 #### Basic setup:
  - [Post-install fixes](#postfix)
  - [Install & set up Tmux](#tmux)
- - [Install grayscale dithering display driver](#grayscale)
+ - [Install grayscale dithering display driver](#grayscaledither)
 ```bash 
 curl ....
 ```
@@ -61,7 +61,7 @@ wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_status.sh
 ```
 
-## <a name="grayscale"></a> Display driver with grayscale dithering
+## <a name="grayscaledither"></a> Display driver with grayscale dithering
 ```bash
 git clone BLAHBLABLAH
 ```
