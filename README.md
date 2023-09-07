@@ -3,9 +3,9 @@
 Running anything on this page is your decision. Do so at your own risk.
 
 #### Basic setup:
- - Post-install fixes
+ - [Post-install fixes](#postfix)
  - [Install & set up Tmux](#tmux)
- - Install grayscale dithering display driver
+ - [Install grayscale dithering display driver](#grayscale)
 ```bash 
 curl ....
 ```
@@ -32,7 +32,7 @@ Running the following command will do everything checked in the list above. Use 
   - [ ] Love2D (depends on SDL2)
 - [ ] Graphical launcher/frontend
 
-## Post-install fixes
+## <a name="postfix"></a>Post-install fixes
 Fix /boot/cmdline.txt and increase default font size to 8x16
 ```bash
 sudo set -i 's/8x8/8x16/g' /boot/cmdline.txt
@@ -61,7 +61,7 @@ wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_status.sh
 ```
 
-## Display driver with grayscale dithering
+## <a name="grayscale></a> Display driver with grayscale dithering
 ```bash
 git clone BLAHBLABLAH
 ```
