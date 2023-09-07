@@ -4,7 +4,7 @@ Running anything on this page is your decision. Do so at your own risk.
 
 #### Basic setup:
  - [Post-install fixes](#postfix)
- - [Install & set up Tmux](#tmux)
+ - [Install & set up Tmux]((https://github.com/TheMediocritist/beepy-fun/tree/main#-install-tmux-and-add-some-flair)
  - [Install grayscale dithering display driver](#grayscaledither)
 ```bash 
 curl ....
