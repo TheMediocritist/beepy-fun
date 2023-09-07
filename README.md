@@ -17,7 +17,11 @@ curl ....
 ```bash 
 curl ....
 ```
-
+#### Neat apps
+ - 1
+ - 2
+ - 3
+ - 4
 
 
 Running the following command will do everything checked in the list above. Use at your own risk.
