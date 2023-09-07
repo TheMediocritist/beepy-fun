@@ -5,6 +5,7 @@ If you choose to run anything from here you do so at your own risk.
 
 #### Basic setup
 This step increases the size of fonts and boots directly into Tmux with time, wifi and battery indicators and wifi manager.
+
 Details:
  - [Post-install fixes](#postfix)
  - [Install & set up Tmux](https://github.com/TheMediocritist/beepy-fun/tree/main#-install-tmux-and-add-some-flair)
