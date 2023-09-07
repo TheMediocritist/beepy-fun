@@ -1,26 +1,27 @@
 # Fun with Beepy
-(Yet another) repo for exploring Beepy's fun potential
+(Yet another) repo for exploring Beepy's fun potential.
+Running anything on this page is your decision. Do so at your own risk.
 
-#### Basics install:
-- [x] Post-install fixes
-  - [x] Increase font size
-  - [x] Automatic login
-- [x] Tmux
-  - [x] Status bar
-  - [x] Wi-Fi menu
-- [x] Display dithering
+#### Basic setup:
+ - Post-install fixes
+ - [Install & set up Tmux](#tmux)
+ - Install grayscale dithering display driver
+```bash 
+curl ....
+```
 
-- [x] Games
-  - [x] Gameboy emulator
-  - [x] Doom
-  - [ ] MAME
+#### Add some games
+ - Gameboy emulator
+ - Doom
+ - Zork
+```bash 
+curl ....
+```
 
 
 
 Running the following command will do everything checked in the list above. Use at your own risk.
-```bash 
-curl ....
-```
+
 
 #### Extras
 - [ ] Graphics support
@@ -33,8 +34,15 @@ curl ....
 
 ## Post-install fixes
 Fix /boot/cmdline.txt and increase default font size to 8x16
+```bash
+sudo set -i 's/8x8/8x16/g' /boot/cmdline.txt
+```
+Log in automatically
+```bash
+sudo raspi-config nonint do_boot_behaviour B2
+```
 
-## Install Tmux and add some flair
+## <a name="tmux"></a> Install Tmux and add some flair
 #### Status bar
 * [x] Clock
 * [x] Battery %
