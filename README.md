@@ -61,7 +61,7 @@ wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_status.sh
 ```
 
-## <a name="grayscale></a> Display driver with grayscale dithering
+## <a name="grayscale"></a> Display driver with grayscale dithering
 ```bash
 git clone BLAHBLABLAH
 ```
