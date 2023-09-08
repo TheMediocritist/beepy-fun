@@ -192,6 +192,9 @@ cpi@beepy-retro:~/beepy-directfb2/src/DirectFB-examples/build/src $ sudo ./df_la
 (!) DRMKMS/Layer: drmModeSetCrtc( crtc_id 34, fb_id 37, xy 0,0, connector_id 31, mode 400x240@0Hz ) failed at index 0!
     --> Invalid argument
 
+#### After readinng...
+(https://github.com/directfb2/DirectFB2/issues/90)[https://github.com/directfb2/DirectFB2/issues/90]
+
 Shift drivers then make symlinks
 sudo ln -sf /usr/local/lib/libfusion.so /usr/local/lib/libfusion-2.0.so
 sudo ln -sf /usr/local/lib/libdirect.so /usr/local/lib/libdirect-2.0.so
