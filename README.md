@@ -73,7 +73,11 @@ wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_
 
 ## <a name="grayscaledither"></a> Display driver with grayscale dithering
 ```bash
-git clone BLAHBLABLAH
+ git clone https://github.com/TheMediocritist/beepy_sharp_drm ~/sharp_drm
+cd ~/sharp_drm
+make
+sudo make modules_install
+sudo reboot
 ```
 
 Post-install fixes
