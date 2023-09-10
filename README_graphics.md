@@ -30,6 +30,9 @@ stack traceback:
         [C]: in function 'xpcall'
 ```
 
+## Random stuff
+How to configure directfb: https://manpages.ubuntu.com/manpages/focal/en/man5/directfbrc.5.html
+
 # SDL attempt 4017
 using RetroPie SDL version
 ./autogen.sh
