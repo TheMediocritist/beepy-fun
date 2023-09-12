@@ -24,7 +24,7 @@ curl ....
 curl ....
 ```
 ### Neat apps
- - 1
+ - pDiary for Doogie Howser vibes https://github.com/manipuladordedados/pdiary
  - 2
  - 3
  - 4
