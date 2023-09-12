@@ -3,7 +3,7 @@
 
 If you choose to run anything from here you do so at your own risk. 
 
-#### Basic setup
+### Basic setup
 This step increases the size of fonts and boots directly into Tmux with time, wifi and battery indicators and wifi manager.
 
 Details:
@@ -16,24 +16,22 @@ Install all:
 curl ....
 ```
 
-#### Add some games
+### Add some games
  - Gameboy emulator
  - Doom
  - Zork
 ```bash 
 curl ....
 ```
-#### Neat apps
+### Neat apps
  - 1
  - 2
  - 3
  - 4
 
-
 Running the following command will do everything checked in the list above. Use at your own risk.
 
-
-#### Extras
+### Extras
 - [ ] Graphics support
   - [x] DirectFB2
   - [ ] SDL2
