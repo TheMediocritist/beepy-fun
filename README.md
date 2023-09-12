@@ -63,6 +63,7 @@ Launch Tmux at login
 #### Extra menus
 * [x] [Tmux + n] Wi-Fi connection manager/switcher
 * [x] [Tmux + k] Sym keymap guide popup
+* [ ] [Tmux + v] Set display dithering/mono cutoff value
 * [ ] Bluetooth connection manager/switcher
 
 Note: repo version of tmux is _old!_
