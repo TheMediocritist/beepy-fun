@@ -65,7 +65,8 @@ Launch Tmux at login
 * [ ] Bluetooth connection manager/switcher
 
 Note: repo version of tmux is _old!_
-Install from source, then add some fun:
+
+Install from source:
 ```bash
 sudo apt install -y libevent-dev
 git clone https://github.com/tmux/tmux.git
@@ -73,7 +74,9 @@ cd tmux
 sh autogen.sh
 ./configure && make
 sudo make install
-
+```
+Now add some fun:
+```bash
 cd ~/
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/.tmux.conf
 mkdir .conf & cd .conf
