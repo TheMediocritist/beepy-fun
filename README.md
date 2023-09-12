@@ -68,7 +68,9 @@ Note: repo version of tmux is _old!_
 
 Install from source:
 ```bash
-sudo apt install -y libevent-dev
+sudo apt remove tmux
+sudo apt update
+sudo apt install -y libevent-dev automake libncurses-dev
 git clone https://github.com/tmux/tmux.git
 cd tmux
 sh autogen.sh
