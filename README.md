@@ -92,6 +92,13 @@ sudo make install
 sudo reboot
 ```
 
-Post-install fixes
+### Post-install fixes
+Notes
+ - The display driver is using 32 bits per pixel RBGA. 
+ - The terminal is using a variety of colours for highlighting and different file/folder types.
+ - The linux terminal 'black' is actually a dark gray, and 'white' is actually off-white.
+So...
+
+
 
 
