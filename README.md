@@ -65,6 +65,7 @@ sudo raspi-config nonint do_boot_behaviour B2
 Note: repo version of tmux is _old!_
 Install from source, then add some fun:
 ```bash
+sudo apt install -y libevent-dev
 git clone https://github.com/tmux/tmux.git
 cd tmux
 sh autogen.sh
