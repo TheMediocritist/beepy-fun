@@ -70,6 +70,8 @@ git clone https://github.com/tmux/tmux.git
 cd tmux
 sh autogen.sh
 ./configure && make
+sudo make install
+
 cd ~/
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/.tmux.conf
 mkdir .conf & cd .conf
