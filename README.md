@@ -51,6 +51,10 @@ Log in automatically
 ```bash
 sudo raspi-config nonint do_boot_behaviour B2
 ```
+Launch Tmux at login
+```bash
+...
+```
 
 ## <a name="tmux"></a> Install Tmux and add some flair
 #### Status bar
