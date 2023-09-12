@@ -62,13 +62,19 @@ sudo raspi-config nonint do_boot_behaviour B2
 * [x] Wi-Fi connection manager/switcher
 * [ ] Bluetooth connection manager/switcher
 
+Note: repo version of tmux is _old!_
+Install from source, then add some fun:
 ```bash
-sudo apt install tmux
+git clone https://github.com/tmux/tmux.git
+cd tmux
+sh autogen.sh
+./configure && make
 cd ~/
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/.tmux.conf
 mkdir .conf & cd .conf
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_manager.sh
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_status.sh
+wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_keymap.sh
 ```
 
 ## <a name="grayscaledither"></a> Display driver with grayscale dithering
