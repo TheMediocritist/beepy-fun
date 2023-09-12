@@ -81,6 +81,7 @@ wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_status.sh
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_keymap.sh
 ```
+Reboot is required, but can wait...
 
 ## <a name="grayscaledither"></a> Display driver with grayscale dithering
 ```bash
