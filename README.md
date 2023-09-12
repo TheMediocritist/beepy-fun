@@ -61,7 +61,8 @@ Launch Tmux at login
 * [x] Wi-Fi connection & signal strength
 
 #### Extra menus
-* [x] Wi-Fi connection manager/switcher
+* [x] [Tmux + n] Wi-Fi connection manager/switcher
+* [x] [Tmux + k] Sym keymap guide popup
 * [ ] Bluetooth connection manager/switcher
 
 Note: repo version of tmux is _old!_
