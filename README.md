@@ -98,6 +98,7 @@ mkdir .config & cd .config & mkdir tmux & cd tmux
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_manager.sh
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_status.sh
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_keymap.sh
+wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_dither.sh
 ```
 Notes:
  - The addon scripts are located in a hidden folder called `~/.config/tmux`, in case you wish to edit or remove them.
