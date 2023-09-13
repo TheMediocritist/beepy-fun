@@ -7,10 +7,10 @@ If you choose to run anything from here you do so at your own risk.
 This step increases the size of fonts and boots directly into Tmux with time, wifi and battery indicators and wifi manager.
 
 Details:
- - [Post-install fixes](#postfix)
+ - [Post-install fixes](https://github.com/TheMediocritist/beepy-fun/tree/main#post-install-fixes)
  - [Install & set up Tmux](https://github.com/TheMediocritist/beepy-fun/tree/main#-install-tmux-and-add-some-flair)
- - [Install grayscale dithering display driver](#grayscaledither)
- - [Update .bashrc to auto-start tmux and set colours]
+ - [Install grayscale dithering display driver](https://github.com/TheMediocritist/beepy-fun/tree/main#display-driver-with-grayscale-dithering)
+ - [Update .bashrc to auto-start tmux and set colours](https://github.com/TheMediocritist/beepy-fun/tree/main#update-bashrc)
 
 Pick and choose by following the links above, or run the following to install them all:
 ```bash 
