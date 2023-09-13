@@ -16,7 +16,7 @@ Pick and choose by following the links above, or run the following to install th
 curl ....
 ```
 
-### Working games
+### Games
  - Gameboy emulator
  - Doom
  - Zork
@@ -25,18 +25,10 @@ Pick and choose by following the links above, or run the following to install th
 ```bash 
 curl ....
 ```
-### Neat apps
+### Apps
  - pDiary for Doogie Howser vibes https://github.com/manipuladordedados/pdiary
 
- - or https://github.com/ammarabouzor/tui-journal
-   ```bash
-   # Install dependencies
-   sudo apt install -y libssl-dev
-   # Install Rust
-   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-   # Install tui-journal
-   cargo install tui-journal
-   ```
+ - [Tui-Journal](https://github.com/TheMediocritist/beepy-fun/tree/main#Tui-Journal)
  - 3
  - 4
 
@@ -54,7 +46,8 @@ curl ....
   - [ ] Love2D (depends on SDL2)
 - [ ] Graphical launcher/frontend
 
-## Post-install fixes
+# Basic Setup
+### Post-install fixes
 Fix /boot/cmdline.txt and increase default font size to 8x16
 ```bash
 sudo set -i 's/8x8/8x16/g' /boot/cmdline.txt
@@ -68,7 +61,7 @@ Launch Tmux at login
 ...
 ```
 
-## Install Tmux and add some flair
+### Install Tmux and add some flair
 #### Status bar
 * [x] Clock
 * [x] Battery %
@@ -104,7 +97,7 @@ wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_keyma
 ```
 Reboot is required, but can wait...
 
-## <a name="grayscaledither"></a> Display driver with grayscale dithering
+### Display driver with grayscale dithering
 ```bash
 git clone https://github.com/TheMediocritist/beepy_sharp_drm ~/sharp_drm
 cd ~/sharp_drm
@@ -113,13 +106,40 @@ sudo make install
 sudo reboot
 ```
 
-### Post-install fixes
+#### Post-install fixes
 Notes
  - The display driver is using 32 bits per pixel RBGA. 
  - The terminal is using a variety of colours for highlighting and different file/folder types.
  - The linux terminal 'black' is actually a dark gray, and 'white' is actually off-white.
 So...
 
+# Games
+### Gameboy Emulator (??)
+Fix /boot/cmdline.txt and increase default font size to 8x16
+```bash
+...
+```
+### Doom (??)
+Fix /boot/cmdline.txt and increase default font size to 8x16
+```bash
+...
+```
+### Zork (??)
+Fix /boot/cmdline.txt and increase default font size to 8x16
+```bash
+...
+```
+# Apps
+### pDiary
 
-
-
+### Tui-Journal
+[Tui-Journal](https://github.com/ammarabouzor/tui-journal) is a journalling app with major Doogie Howser vibes. Old people will understand.
+```bash
+# Install dependencies
+sudo apt install -y libssl-dev
+# Install Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+# Install tui-journal
+cargo install tui-journal
+```
