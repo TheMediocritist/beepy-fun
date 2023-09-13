@@ -173,6 +173,7 @@ sudo make install
 apt install fonts-symbola
 
 # Install pDiary using pip
+pip install sqlcipher3-binary==0.5.1
 pip install https://github.com/manipuladordedados/pdiary/releases/download/1.65/pdiary-1.65-py3-none-any.whl
 ```
 
@@ -188,3 +189,4 @@ source "$HOME/.cargo/env"
 cargo install tui-journal
 ```
 Note: Building tui-journal is slow. I'm not kidding; maybe a couple of hours on a Pi Zero.
+Use the command `tjournal` to run it.
