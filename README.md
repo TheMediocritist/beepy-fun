@@ -32,7 +32,7 @@ curl ....
 ```
 ### Apps
  - [pDiary](https://github.com/TheMediocritist/beepy-fun/tree/main#pDiary) is a journalling app with Doogie Howser vibes. Alternatively, try [Tui-Journal](https://github.com/TheMediocritist/beepy-fun/tree/main#Tui-Journal)(not installed by default). 
- - 
+ - [
  - 3
  - 4
 
@@ -94,13 +94,13 @@ Now add some fun:
 ```bash
 cd ~/
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/.tmux.conf
-mkdir .conf & cd .conf
+mkdir .config & cd .config & mkdir tmux & cd tmux
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_manager.sh
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_status.sh
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_keymap.sh
 ```
 Notes:
- - The addon scripts are located in a hidden folder called `~/.conf`, in case you wish to edit or remove them.
+ - The addon scripts are located in a hidden folder called `~/.config/tmux`, in case you wish to edit or remove them.
  - Tmux configuration is in the hidden file `~/.tmux.conf`.
  - Reboot is required, but can wait...
 
