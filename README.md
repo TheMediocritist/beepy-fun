@@ -17,9 +17,13 @@ curl ....
 ```
 
 ### Games
- - [Gameboy emulator](https://github.com/TheMediocritist/beepy-fun/blob/main/README.md#gameboy-emulator-)
- - Doom
- - Zork
+ - [Gameboy emulator](https://github.com/TheMediocritist/beepy-fun/blob/main/README.md#gameboy-emulator)
+ - [Doom](https://github.com/TheMediocritist/beepy-fun/blob/main/README.md#doom)
+ - [Zork](https://github.com/TheMediocritist/beepy-fun/blob/main/README.md#zork)
+ - VVVVVV (coming soon)
+ - NetHack (coming soon)
+ - Celeste?
+ - Rogue?
    
 Pick and choose by following the links above, or run the following to install them all:
 ```bash 
