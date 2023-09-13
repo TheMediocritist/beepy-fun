@@ -10,6 +10,7 @@ Details:
  - [Post-install fixes](#postfix)
  - [Install & set up Tmux](https://github.com/TheMediocritist/beepy-fun/tree/main#-install-tmux-and-add-some-flair)
  - [Install grayscale dithering display driver](#grayscaledither)
+ - [Update .bashrc to auto-start tmux and set colours]
 
 Pick and choose by following the links above, or run the following to install them all:
 ```bash 
@@ -112,6 +113,14 @@ cd ~/sharp_drm
 make
 sudo make install
 sudo reboot
+```
+
+### Update .bashrc
+This sets terminal colours to work correctly with the dithering driver, automatically opens tmux and adds some flair.
+Don't use it if you've got stuff in .bashrc you want to keep as it will over-write your setup.
+```bash
+cd ~\
+wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/.bashrc
 ```
 
 #### Post-install fixes
