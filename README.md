@@ -32,7 +32,7 @@ curl ....
 ```
 ### Apps
  - [pDiary](https://github.com/TheMediocritist/beepy-fun/tree/main#pDiary) is a journalling app with Doogie Howser vibes. Alternatively, try [Tui-Journal](https://github.com/TheMediocritist/beepy-fun/tree/main#Tui-Journal)(not installed by default). 
- - [NEIX] Newsreader for RSS feeds
+ - [NEIX](https://github.com/TheMediocritist/beepy-fun/blob/main/README.md#neix) Newsreader for RSS feeds
  - 3
  - 4
 
