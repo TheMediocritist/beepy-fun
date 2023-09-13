@@ -32,7 +32,7 @@ curl ....
 ```
 ### Apps
  - [pDiary](https://github.com/TheMediocritist/beepy-fun/tree/main#pDiary) is a journalling app with Doogie Howser vibes. Alternatively, try [Tui-Journal](https://github.com/TheMediocritist/beepy-fun/tree/main#Tui-Journal)(not installed by default). 
- - [
+ - [NEIX] Newsreader for RSS feeds
  - 3
  - 4
 
@@ -156,10 +156,24 @@ cmake ..
 make
 ```
 # Apps
+### NEIX
+Newsreader for RSS/Atom feeds.
+```bash
+cd ~\
+git clone https://github.com/TheMediocritist/beepy_neix.git  
+cd neix  
+cmake . # to enable unit-tests: cmake -DENABLE-TESTS=ON  
+make  
+sudo make install
+```
 ### pDiary
 [pDiary](https://github.com/manipuladordedados/pdiary)) is a journalling app with major Doogie Howser vibes. Old people will understand.
 ```bash
-...
+# Install font with symbols
+apt install fonts-symbola
+
+# Install pDiary using pip
+pip install https://github.com/manipuladordedados/pdiary/releases/download/1.65/pdiary-1.65-py3-none-any.whl
 ```
 
 ### Tui-Journal
