@@ -124,12 +124,30 @@ Fix /boot/cmdline.txt and increase default font size to 8x16
 ### Doom (??)
 Fix /boot/cmdline.txt and increase default font size to 8x16
 ```bash
-...
+# clone and build
+cd ~/
+git clone https://github.com/TheMediocritist/beepy_doom
+cd beepy_doom
+make
+
+# download shareware WAD file (level data)
+wget https://distro.ibiblio.org/slitaz/sources/packages/d/doom1.wad
 ```
 ### Zork (??)
-Fix /boot/cmdline.txt and increase default font size to 8x16
+Zork is a text-based adventure game from 1977-ish, with various 
+The version here is a lightly modified version of [Link](goes here) with the output re-formatted to fit within 50 characters and 15 lines (for 8x16 Beepy font). Where text overflows 15 lines, it will pause until a key is pressed.
 ```bash
-...
+# install dependencies
+sudo apt install libboost-all-dev
+
+# clone and build
+cd ~/
+git clone https://github.com/TheMediocritist/beepy_zork1
+cd beepy_zork1
+mkdir build
+cd build
+cmake ..
+make
 ```
 # Apps
 ### pDiary
@@ -149,4 +167,4 @@ source "$HOME/.cargo/env"
 # Install tui-journal
 cargo install tui-journal
 ```
-Note: Building tui-journal is slow.
+Note: Building tui-journal is slow. I'm not kidding; maybe a couple of hours on a Pi Zero.
