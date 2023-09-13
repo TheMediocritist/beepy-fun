@@ -11,15 +11,17 @@ Details:
  - [Install & set up Tmux](https://github.com/TheMediocritist/beepy-fun/tree/main#-install-tmux-and-add-some-flair)
  - [Install grayscale dithering display driver](#grayscaledither)
 
-Install all:
+Pick and choose by following the links above, or run the following to install them all:
 ```bash 
 curl ....
 ```
 
-### Add some games
+### Working games
  - Gameboy emulator
  - Doom
  - Zork
+   
+Pick and choose by following the links above, or run the following to install them all:
 ```bash 
 curl ....
 ```
@@ -38,7 +40,10 @@ curl ....
  - 3
  - 4
 
-Running the following command will do everything checked in the list above. Use at your own risk.
+Pick and choose by following the links above, or run the following to install them all:
+```bash 
+curl ....
+```
 
 ### Extras
 - [ ] Graphics support
@@ -49,7 +54,7 @@ Running the following command will do everything checked in the list above. Use 
   - [ ] Love2D (depends on SDL2)
 - [ ] Graphical launcher/frontend
 
-## <a name="postfix"></a>Post-install fixes
+## Post-install fixes
 Fix /boot/cmdline.txt and increase default font size to 8x16
 ```bash
 sudo set -i 's/8x8/8x16/g' /boot/cmdline.txt
@@ -63,7 +68,7 @@ Launch Tmux at login
 ...
 ```
 
-## <a name="tmux"></a> Install Tmux and add some flair
+## Install Tmux and add some flair
 #### Status bar
 * [x] Clock
 * [x] Battery %
