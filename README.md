@@ -172,6 +172,15 @@ sudo make install
 # Install font with symbols
 apt install fonts-symbola
 
+# Build dependency that won't install from pip like it's supposed to (sigh, yeah...)
+cd ~/
+git clone https://github.com/sqlcipher/sqlcipher.git
+cd sqlcipher
+./configure
+make
+sudo make install
+
+
 # Install pDiary using pip
 pip install sqlcipher3-binary==0.5.1
 pip install https://github.com/manipuladordedados/pdiary/releases/download/1.65/pdiary-1.65-py3-none-any.whl
