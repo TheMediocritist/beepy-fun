@@ -17,7 +17,7 @@ curl ....
 ```
 
 ### Games
- - Gameboy emulator
+ - [Gameboy emulator](https://github.com/TheMediocritist/beepy-fun/blob/main/README.md#gameboy-emulator-)
  - Doom
  - Zork
    
@@ -116,12 +116,12 @@ Notes
 So...
 
 # Games
-### Gameboy Emulator (??)
+### Gameboy Emulator
 Fix /boot/cmdline.txt and increase default font size to 8x16
 ```bash
 ...
 ```
-### Doom (??)
+### Doom
 Fix /boot/cmdline.txt and increase default font size to 8x16
 ```bash
 # clone and build
@@ -133,7 +133,7 @@ make
 # download shareware WAD file (level data)
 wget https://distro.ibiblio.org/slitaz/sources/packages/d/doom1.wad
 ```
-### Zork (??)
+### Zork
 Zork is a text-based adventure game from 1977-ish, with various 
 The version here is a lightly modified version of [Link](goes here) with the output re-formatted to fit within 50 characters and 15 lines (for 8x16 Beepy font). Where text overflows 15 lines, it will pause until a key is pressed.
 ```bash
