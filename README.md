@@ -25,7 +25,16 @@ curl ....
 ```
 ### Neat apps
  - pDiary for Doogie Howser vibes https://github.com/manipuladordedados/pdiary
+
  - or https://github.com/ammarabouzor/tui-journal
+   ```bash
+   # Install dependencies
+   sudo apt install -y libssl-dev
+   # Install Rust
+   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   # Install tui-journal
+   cargo install tui-journal
+   ```
  - 3
  - 4
 
