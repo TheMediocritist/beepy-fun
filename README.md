@@ -26,8 +26,7 @@ Pick and choose by following the links above, or run the following to install th
 curl ....
 ```
 ### Apps
- - pDiary for Doogie Howser vibes https://github.com/manipuladordedados/pdiary
-
+ - [pDiary](https://github.com/TheMediocritist/beepy-fun/tree/main#pDiary) for Doogie Howser vibes 
  - [Tui-Journal](https://github.com/TheMediocritist/beepy-fun/tree/main#Tui-Journal)
  - 3
  - 4
@@ -131,6 +130,10 @@ Fix /boot/cmdline.txt and increase default font size to 8x16
 ```
 # Apps
 ### pDiary
+[pDiary](https://github.com/manipuladordedados/pdiary)) is a journalling app with major Doogie Howser vibes. Old people will understand.
+```bash
+...
+```
 
 ### Tui-Journal
 [Tui-Journal](https://github.com/ammarabouzor/tui-journal) is a journalling app with major Doogie Howser vibes. Old people will understand.
