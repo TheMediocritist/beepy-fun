@@ -94,7 +94,10 @@ wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_wifi_status.sh
 wget https://raw.githubusercontent.com/TheMediocritist/beepy-fun/main/tmux_keymap.sh
 ```
-Reboot is required, but can wait...
+Notes:
+ - The addon scripts are located in a hidden folder called `~/.conf`, in case you wish to edit or remove them.
+ - Tmux configuration is in the hidden file `~/.tmux.conf`.
+ - Reboot is required, but can wait...
 
 ### Display driver with grayscale dithering
 ```bash
@@ -146,3 +149,4 @@ source "$HOME/.cargo/env"
 # Install tui-journal
 cargo install tui-journal
 ```
+Note: Building tui-journal is slow.
